@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "harp server --port $PORT"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
     "url": "https://github.com/TunWriteCode/demo/issues"
   },
   "homepage": "https://github.com/TunWriteCode/demo#readme",
-  "description": ""
+  "description": "",
+  
+  "dependencies": {
+    "harp": "*"
+  }
 }
